@@ -978,7 +978,7 @@ function checkEnergy() {
         return sel.pickup([regexp_type[balls_kind], {className: "Button"}], "kw_energy_balls_" + balls_kind, type);
     };
 
-    checkOwnEnergy();
+    // checkOwnEnergy();
     checkFriendsEnergy();
     setTimers();
 
